@@ -42,6 +42,7 @@ const App = () => {
 
   const reset = () => {
     setStatus(false);
+    setSize("");
   }
 
   return (
@@ -51,7 +52,7 @@ const App = () => {
       </div>
       {/* <div className="date">9/17/2021</div> */}
       <div className="inputs">
-        <input type="text" className="input_box" value={size} onChange={e => setSize(e.target.value)} placeholder="Limit(n)" />
+        <input type="text" className="input_box" value={size} onChange={e => setSize(e.target.value)} placeholder="Limit (n)" />
         <button className="generate_button" onClick={start}>Generate</button>
         <button className="reset_button" onClick={reset}>Reset</button>
       </div>
@@ -65,21 +66,19 @@ const App = () => {
       </div>
       {!status &&
         <div className="description">
-          Enter <i>n</i> into the textbox and click Generate! This will compute all the prime numbers up to <i>n</i>. WARNING: <i>n</i> > 90,000 will crash the site.
+          Enter natural number <i>n</i> into the textbox and click Generate! This will compute all the prime numbers up to <i>n</i>. WARNING: <i>n</i> > 90,000 may crash the site.
           <br />
           <br />
-          How The Algorithm Works:
+          {/* <br />
           <br />
           <br />
+          <br />
+          <br />  */}
           During my Number Theory course in college, we learned about The Sieve of Eratosthenes. Although simple, I still found this ancient method of computing prime numbers
-          to be a pretty fascinating algorithm. The main idea is that if we start with a set of all positive integers between 1 and any limit <i>n</i>, then we eliminate all composite numbers up to <i>n</i>, everything that is left must be prime.
+          to be a pretty fascinating algorithm. It works by going down the line of numbers, stopping at each, and sending out a second pointer to eliminate all of the multiples of the selected number.
           <br />
           <br />
-          The algorithm starts by pointing to the first number, let's say 2. A second pointer would then start iterating through all the multiples of 2 and crossing them off since any multiple would be considered composite. This process then happens for 3. However, once it gets to 4, it would've already been crossed off as composite since when the algorithm ran for 2, 4 was detected as a mutiple of 2. So, the pointer then skips to 5. The process keeps going until we hit <i>n</i>. Notice that the algorithm gets progressively faster since more numbers are getting eliminated.
-
-          <br />
-          <br />
-          If you would like a way better explanation, you can read about it <a href="https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes">here.</a> Thought it would be fun to code up this little simulation of the algorithm. I was never the best at math, let alone a proof-based math course, but Number Theory was quite memorable and interesting. Even if I don't remember everything from this course in the future, I will at least have this project to look back on :)
+          A more formal definition can be found <a href="https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes">here</a>. Thought it would be fun to code up this quick visualization of the results. I was never the best at math courses, let alone a proof-based math course, but Number Theory was quite memorable and interesting. Shoutout to Professor Luis for being amazing! Even if I don't remember everything from this course in the future, I will at least have this project to look back on :)
 
           <br />
           <br />
