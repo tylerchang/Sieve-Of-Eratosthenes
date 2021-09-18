@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sieve-of-eratosthenes/static/css/main.be25c8fa.chunk.css",
-    "main.js": "/sieve-of-eratosthenes/static/js/main.31552cd2.chunk.js",
-    "main.js.map": "/sieve-of-eratosthenes/static/js/main.31552cd2.chunk.js.map",
+    "main.js": "/sieve-of-eratosthenes/static/js/main.6f2d5fab.chunk.js",
+    "main.js.map": "/sieve-of-eratosthenes/static/js/main.6f2d5fab.chunk.js.map",
     "runtime-main.js": "/sieve-of-eratosthenes/static/js/runtime-main.ab25069e.js",
     "runtime-main.js.map": "/sieve-of-eratosthenes/static/js/runtime-main.ab25069e.js.map",
     "static/js/2.891c3fc9.chunk.js": "/sieve-of-eratosthenes/static/js/2.891c3fc9.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ab25069e.js",
     "static/js/2.891c3fc9.chunk.js",
     "static/css/main.be25c8fa.chunk.css",
-    "static/js/main.31552cd2.chunk.js"
+    "static/js/main.6f2d5fab.chunk.js"
   ]
 }
