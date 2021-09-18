@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sieve-of-eratosthenes/static/css/main.be25c8fa.chunk.css",
+    "main.js": "/sieve-of-eratosthenes/static/js/main.31552cd2.chunk.js",
+    "main.js.map": "/sieve-of-eratosthenes/static/js/main.31552cd2.chunk.js.map",
+    "runtime-main.js": "/sieve-of-eratosthenes/static/js/runtime-main.ab25069e.js",
+    "runtime-main.js.map": "/sieve-of-eratosthenes/static/js/runtime-main.ab25069e.js.map",
+    "static/js/2.891c3fc9.chunk.js": "/sieve-of-eratosthenes/static/js/2.891c3fc9.chunk.js",
+    "static/js/2.891c3fc9.chunk.js.map": "/sieve-of-eratosthenes/static/js/2.891c3fc9.chunk.js.map",
+    "static/js/3.dc16db03.chunk.js": "/sieve-of-eratosthenes/static/js/3.dc16db03.chunk.js",
+    "static/js/3.dc16db03.chunk.js.map": "/sieve-of-eratosthenes/static/js/3.dc16db03.chunk.js.map",
+    "index.html": "/sieve-of-eratosthenes/index.html",
+    "static/css/main.be25c8fa.chunk.css.map": "/sieve-of-eratosthenes/static/css/main.be25c8fa.chunk.css.map",
+    "static/js/2.891c3fc9.chunk.js.LICENSE.txt": "/sieve-of-eratosthenes/static/js/2.891c3fc9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab25069e.js",
+    "static/js/2.891c3fc9.chunk.js",
+    "static/css/main.be25c8fa.chunk.css",
+    "static/js/main.31552cd2.chunk.js"
+  ]
+}
