@@ -79,7 +79,7 @@ const App = () => {
 
           <br />
           <br />
-          If you would like a way better explanation, you can read about it <a href="https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes">here.</a> Thought it would be fun to code up this little simulation of the algorithm. I was never the best at math, let alone a proof-based math course, but Number Theory was quite memorable and interesting. Even if I forget everything in the future, I will at least have this project to look back on :)
+          If you would like a way better explanation, you can read about it <a href="https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes">here.</a> Thought it would be fun to code up this little simulation of the algorithm. I was never the best at math, let alone a proof-based math course, but Number Theory was quite memorable and interesting. Even if I don't remember everything from this course in the future, I will at least have this project to look back on :)
 
           <br />
           <br />
