@@ -66,14 +66,9 @@ const App = () => {
       </div>
       {!status &&
         <div className="description">
-          Enter natural number <i>n</i> into the textbox and click Generate! This will compute all the prime numbers up to <i>n</i>. WARNING: <i>n</i> > 90,000 may crash the site.
+          Enter natural number <i>n</i> into the textbox and click Generate! This will compute all the prime numbers up to <i>n</i>. WARNING: <i>n</i> > 300,000 may crash the site.
           <br />
           <br />
-          {/* <br />
-          <br />
-          <br />
-          <br />
-          <br />  */}
           During my Number Theory course in college, we learned about The Sieve of Eratosthenes. Although simple, I still found this ancient method of computing prime numbers
           to be a pretty fascinating algorithm. It works by going down the line of numbers, stopping at each, and sending out a second pointer to eliminate all of the multiples of the selected number.
           <br />
